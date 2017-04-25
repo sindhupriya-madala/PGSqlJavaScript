@@ -28,8 +28,9 @@ function selectPeopleWithLastname(lastname, done) {
 };
 
 
-selectPeopleWithLastname(input,(row) => {
-  if(row) {
-    console.log(row);
+selectPeopleWithLastname(input,(err,row) => {
+  if(err) {
+    console.log(err);
   }
+  console.log(row);
 })
