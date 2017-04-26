@@ -1,0 +1,24 @@
+{
+  "name": "pgsqlwithjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "select_script.js",
+  "dependencies": {
+    "knex": "^0.12.9",
+    "pg": "^6.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindhupriya-madala/PGSqlJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindhupriya-madala/PGSqlJavaScript/issues"
+  },
+  "homepage": "https://github.com/sindhupriya-madala/PGSqlJavaScript#readme"
+}
